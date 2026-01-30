@@ -1,2 +1,5 @@
 pdf2docx
 streamlit
+pdfplumber
+python-pptx
+pdf2image
