@@ -51,12 +51,12 @@ streamlit run app.py
 
 ## 🤖 Agent 技能包 (AI 助手专用)
 
-本项目包含一个打包好的 **Gemini Agent Skill**，位于 `skill/pdf-converter.zip`。
-如果你使用 Gemini CLI 或其他支持 Skill 协议的 AI 助手，可以直接导入此技能。
+本项目包含一个完整的 **Gemini Agent Skill** 源码，位于 `skill/pdf-converter/` 文件夹。
+如果你使用 Gemini CLI 或其他支持 Skill 协议的 AI 助手，可以直接导入此文件夹。
 
-**安装方式：**
-1. 解压 `skill/pdf-converter.zip` 到你的技能目录（例如 `~/.gemini/skills/`）。
-2. 只要对 AI 说：“把这个文件夹里的 PDF 转成 Word”，它就会自动调用此工具。
+**使用方式：**
+1. 将 `skill/pdf-converter/` 文件夹复制或链接到你的技能目录（例如 `~/.gemini/skills/`）。
+2. 只要对 AI 说：“用 pdf-converter 技能帮我转一下这个文件”，它就会自动调用。
 
 ---
 
